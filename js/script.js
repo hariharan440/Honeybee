@@ -21,18 +21,18 @@ window.onscroll = () => {
 const sr = ScrollReveal({
     origin: 'top',
     distance:'85px',
-    duration: 2500,
+    duration: 1500,
     reset: true
 })
 
-sr.reveal('.home-text', {delay:100});
-sr.reveal('.home-img', {delay:150});
-sr.reveal('.container', {delay:150});
+sr.reveal('.home-text', {delay:50});
+sr.reveal('.home-img', {delay:70});
+sr.reveal('.container', {delay:70});
 
 sr.reveal('.about-img', {});
-sr.reveal('.about-text', {delay:100});
+sr.reveal('.about-text', {delay:50});
 
 sr.reveal('.middle-text', {});
-sr.reveal('.row-btn,.shop-content', {delay:100});
+sr.reveal('.row-btn,.shop-content', {delay:50});
 
-sr.reveal('.review-content,.contact', {delay:100});
+sr.reveal('.review-content,.contact', {delay:50});
