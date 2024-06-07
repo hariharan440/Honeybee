@@ -501,6 +501,7 @@ header.sticky {
     header {
         padding: 22px 4%;
         transition: .2s;
+        
     }
     header.sticky {
         padding: 14px 4%;
@@ -575,6 +576,7 @@ header.sticky {
     .home {
         grid-template-columns: 1fr;
         height: auto; /* Adjust height here */
+        padding-top: 100px;
     }
     .home-text {
         padding-left: 60px;
